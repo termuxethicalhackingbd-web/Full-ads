@@ -663,7 +663,7 @@ show_9973169().then(() => {
 
                 const user = tg.initDataUnsafe.user;
 
-                if (user && user.id && BOT_USERNAME !== '@Global_Cash_All_Bot' && WEBAPP_NAME !== 'Global Cash') {
+                if (user && user.id && BOT_USERNAME !== 'Global_Cash_All_Bot' && WEBAPP_NAME !== 'Global Cash') {
 
                     referralLinkDisplay.textContent = `https://t.me/${BOT_USERNAME}/${WEBAPP_NAME}?startapp=ref${user.id}`;
 
@@ -791,7 +791,7 @@ show_9973169().then(() => {
 
                     adminPanel.style.display = 'block';
 
-                    userInfoDisplay.textContent = `Welcome, Admin! User: ${user.first_name} (@${user.username || 'N/A'}), ID: ${user.id}`;
+                    userInfoDisplay.textContent = `Welcome, Admin! (@{username}
 
                 }
 
