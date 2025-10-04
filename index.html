@@ -791,8 +791,7 @@ show_9973169().then(() => {
 
                     adminPanel.style.display = 'block';
 
-                    userInfoDisplay.textContent = `Welcome, Admin! (@{username}
-
+                    userInfoDisplay.textContent = `Welcome, Admin! User: ${user.first_name} (@${user.username || 'N/A'}), ID: ${user.id}`;
                 }
 
             }
